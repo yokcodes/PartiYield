@@ -7,8 +7,16 @@ cache_dir = '.\.cache'
 requirements = []
 [contracts.YieldPoint-System]
 path = 'contracts/YieldPoint-System.clar'
+clarity_version = 1
+epoch = 2.05
+
 [contracts.contribution-tracking]
 path = 'contracts/contribution-tracking.clar'
+clarity_version = 3
+epoch = 3.0
+
+[contracts.voting-power-calcu]
+path = 'contracts/voting-power-calcu.clar'
 clarity_version = 3
 epoch = 3.0
 [repl.analysis]
