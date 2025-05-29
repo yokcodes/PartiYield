@@ -5,6 +5,8 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.YieldPoint-System]
+path = 'contracts/YieldPoint-System.clar'
 [contracts.contribution-tracking]
 path = 'contracts/contribution-tracking.clar'
 clarity_version = 3
