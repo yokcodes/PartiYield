@@ -20,6 +20,11 @@ path = 'contracts/governance.clar'
 clarity_version = 3
 epoch = 3.0
 
+[contracts.staking-slashing]
+path = 'contracts/staking-slashing.clar'
+clarity_version = 3
+epoch = 3.0
+
 [contracts.voting-power-calcu]
 path = 'contracts/voting-power-calcu.clar'
 clarity_version = 3
