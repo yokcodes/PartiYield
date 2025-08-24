@@ -20,6 +20,11 @@ path = 'contracts/governance.clar'
 clarity_version = 3
 epoch = 3.0
 
+[contracts.retroactive-rewards]
+path = 'contracts/retroactive-rewards.clar'
+clarity_version = 3
+epoch = 3.0
+
 [contracts.staking-slashing]
 path = 'contracts/staking-slashing.clar'
 clarity_version = 3
