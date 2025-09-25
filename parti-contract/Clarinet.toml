@@ -1,41 +1,19 @@
 [project]
-name = 'parti-contract'
-description = ''
+name = "parti-contract"
 authors = []
+description = ""
 telemetry = true
-cache_dir = '.\.cache'
 requirements = []
-[contracts.YieldPoint-System]
-path = 'contracts/YieldPoint-System.clar'
-clarity_version = 1
-epoch = 2.05
+[contracts.nft-rewards]
+path = "contracts/nft-rewards.clar"
+depends_on = []
 
-[contracts.contribution-tracking]
-path = 'contracts/contribution-tracking.clar'
-clarity_version = 3
-epoch = 3.0
+[repl]
+costs_version = 2
+parser_version = 2
 
-[contracts.governance]
-path = 'contracts/governance.clar'
-clarity_version = 3
-epoch = 3.0
-
-[contracts.retroactive-rewards]
-path = 'contracts/retroactive-rewards.clar'
-clarity_version = 3
-epoch = 3.0
-
-[contracts.staking-slashing]
-path = 'contracts/staking-slashing.clar'
-clarity_version = 3
-epoch = 3.0
-
-[contracts.voting-power-calcu]
-path = 'contracts/voting-power-calcu.clar'
-clarity_version = 3
-epoch = 3.0
 [repl.analysis]
-passes = ['check_checker']
+passes = ["check_checker"]
 
 [repl.analysis.check_checker]
 strict = false
